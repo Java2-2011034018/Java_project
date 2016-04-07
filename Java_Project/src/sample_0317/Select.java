@@ -1,27 +1,26 @@
 package sample_0317;
+
 import java.util.*;
 
 public class Select {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		Scanner input = new Scanner(System.in);
 		System.out.println("ÀÔ·ÂÇÏ»ï");
 		int x = input.nextInt();
-		
-		if(x == 0){
+
+		if (x == 0) {
 			System.out.println("0");
-		}
-		else if((x % 2) == 0){
+		} else if ((x % 2) == 0) {
 			System.out.println("Even");
-		}
-		else{
+		} else {
 			System.out.println("Odd");
 		}
-		
+
 		int result = x % 2;
-		switch(result){
+		switch (result) {
 		case 0:
 			System.out.println("Even");
 			break;
