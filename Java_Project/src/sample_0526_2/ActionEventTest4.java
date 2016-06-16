@@ -29,7 +29,7 @@ class MyFrame extends JFrame{
 					label.setText("마침내 버튼이 눌려졌습니다.");
 				}
 			}
-		});
+		});  // 무명 클래스는 여기까지 한줄임!!!!!! 세미콜론 붙여야함!!!!!!
 		
 		panel.add(button);
 		panel.add(label);

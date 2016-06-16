@@ -9,6 +9,7 @@ public class AnimalTest {
 		l.eat();
 		l.sleep();
 		l.roar();
+		l.infor();
 		l.setWeight(50);
 		l.setPicture("Lion");
 		l.infor();

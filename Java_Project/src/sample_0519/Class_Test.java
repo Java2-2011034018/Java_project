@@ -40,3 +40,12 @@ public class Class_Test {
 		temp.change(x, y);
 	}
 }
+
+/* Object 메소드
+
+Object clone()                객체 자신의 복사본을 생성하여 반환
+boolean equals(Object obj)    obj가 현재 객체와 같은지를 반환
+void finalize()               사용되지 않는 객체가 제거되기 직전에 호출
+class getclass()              실행 시간에 객체의 클래스 정보를 반환
+int hashCode()                객체에 대한 해쉬 코드 반환
+String toString()             객체 기술하는 문자열 반환     */

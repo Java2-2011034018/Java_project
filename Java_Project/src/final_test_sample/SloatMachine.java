@@ -1,3 +1,5 @@
+package final_test_sample;
+
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -22,7 +24,8 @@ class MyCounter2 extends JFrame implements ActionListener{
 		
 		for(int i = 0; i < 3 ; i++){
 			labels[i] = new JLabel("" + numbers[i]);
-			labels[i].setFont(new Font("Serif", Font.BOLD | Font.ITALIC, 100));
+			labels[i].setFont(new Font("Serif", Font.BOLD | Font.ITALIC, 100)); //레이블 3개 생성. 절대위치에 표시하기
+			labels[i].setSize(100,100);
 			labels[i].setLocation(100 + 100*i, 20);
 			panel.add(labels[i]);
 		}
@@ -42,7 +45,7 @@ class MyCounter2 extends JFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent event){
 		for(int i = 0; i < 3; i++){
-			numbers[i] = (int) (Math.random() * 10);
+			numbers[i] = (int) (Math.random() * 10); //난수 발생해서 레이블의 텍스트 변경
 			labels[i].setText(" " + numbers[i]);
 		}
 	}

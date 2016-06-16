@@ -23,8 +23,8 @@ class MyPanel extends JPanel {
 			System.exit(1);
 		}
 
-		addMouseListener(new MouseAdapter() {
-			public void mousePressed(MouseEvent e) {
+		addMouseListener(new MouseAdapter() {      //패널에 마우스 리스너 추가.(무명클래스)
+			public void mousePressed(MouseEvent e) {  //자기가 쓸 것만 재정의 하면됨.
 				img_x = e.getX();
 				img_y = e.getY();
 				repaint();
@@ -49,6 +49,11 @@ public class MyFrame extends JFrame {
 		new MyFrame();
 	}
 }
+
+/* 마우스 -> 패널에 붙임 -> 마우스리스너 or 마우스모션리스너 -> addMouseListener or addMouseMotionListener (패널에 붙임)
+ * 
+ * 어댑터클래스 : 클래스이므로 extends 써야함
+ */
 
 /* 어댑터 클래스
 

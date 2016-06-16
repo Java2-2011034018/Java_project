@@ -38,3 +38,6 @@ public class ShapeTest {
 	// 다형성을 쓰려면 함수 오버라이딩이 필수이다!!!!
 
 }
+
+// 객체 실제 타입 알고싶을때!!! : instanceof
+// ex) if ( obj instanceof Rectangle) --> obj 객체가 Rectangle 타입이면 작업을 하는 코드
