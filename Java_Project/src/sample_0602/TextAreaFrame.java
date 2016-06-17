@@ -33,7 +33,7 @@ public class TextAreaFrame extends JFrame implements ActionListener {
 		//add(textArea, BorderLayout.CENTER);  scrollPane 안에 textArea를 집어넣었으므로 scrollPane만 add 해주면 된다.
 		//같이 쓰면 충돌 일어남.
 		
-		pack();
+		pack();        // 딱맞게 해주는것
 		setVisible(true);
 	}
 	

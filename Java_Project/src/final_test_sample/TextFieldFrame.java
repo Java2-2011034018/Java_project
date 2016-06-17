@@ -55,3 +55,17 @@ public class TextFieldFrame {
 		new MyFrame5();
 	}
 }
+
+/* 패스워드 필드
+
+void setEchoChar(char c)    화면에 대신 보여주는 문자를 지정한다.
+char getEchoChar()          화면에 대신 보여주는 문자를 반환한다.
+char[] getPassword()        사용자가 입력한 암호를 문자 배열 형태로 반환한다. 
+
+ 
+ 몇가지 메소드
+
+setEditable("");
+setText("");
+requestFocus();
+selectAll();              */
